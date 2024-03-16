@@ -16,22 +16,22 @@
                             <ul class="list-inline hero-social">
                                 <li class="list-inline-item">
                                     <a href="javascript:void(0);">
-                                        <img src="assets/img/facebook.svg" alt="">
+                                        <img src="{{asset('assets/img/facebook.svg')}}" alt="">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="javascript:void(0);">
-                                        <img src="assets/img/twitter.svg" alt="">
+                                        <img src="{{asset('assets/img/twitter.svg') }}" alt="">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="javascript:void(0);">
-                                        <img src="assets/img/github.svg" alt="">
+                                        <img src="{{asset('assets/img/github.svg')}}" alt="">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="javascript:void(0);">
-                                        <img src="assets/img/linkedin.svg" alt="">
+                                        <img src="{{asset('assets/img/linkedin.svg')}}" alt="">
                                     </a>
                                 </li>
                             </ul>
@@ -39,13 +39,15 @@
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="hero-images">
-                            <div class="square">
-                                <img src="assets/img/element_square.png" alt="/">
+                            <div class="d-none d-xl-block">
+                                <div class="square">
+                                    <img src="assets/img/element_square.png" alt="/">
+                                </div>
+                                <div class="circle"></div>
+                                <div class="circle-2"></div>
+                                <div class="circle-3"></div>
+                                <div class="floating"></div>
                             </div>
-                            <div class="circle"></div>
-                            <div class="circle-2"></div>
-                            <div class="circle-3"></div>
-                            <div class="floating"></div>
                             <div class="rounded-circle">
                                 <img src="assets/img/personal-image-05.jpg" alt="/" class="rounded-circle img-fluid">
                             </div>

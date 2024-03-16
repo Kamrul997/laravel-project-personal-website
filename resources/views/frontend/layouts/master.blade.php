@@ -242,7 +242,7 @@
     <!--  Plugin Js  -->
     <script src="{{ asset('assets/js/plugins.js') }}"></script>
     <!--  Custom JS  -->
-    <script src="{{ asset('assets/js/arshia.js') }}"></script>
+    <script src="{{ asset('assets/js/master.js') }}"></script>
 
 </body>
 
